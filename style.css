@@ -1,0 +1,156 @@
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 18px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+header {
+	
+}
+
+.games li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.games {
+	border: 2px solid black;
+	float: left;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+.navigation {
+	border: 2px solid black;
+	float: left;
+}
+
+.menu-info {
+	float: left;
+	clear: both;
+}
+
+.menu-info a {
+	color: black;
+	margin: 0;
+}
+.menu-info li:hover {
+	background-color: #ede7f6;
+}
+#wrapper {
+	max-width: 80%;
+	margin: auto;
+	position: relative;
+	border: 10px dashed red;
+}
+header {
+	padding: 10px;
+
+}
+
+button {
+	-webkit-border-radius: 17;
+	-moz-border-radius: 17;
+	border-radius: 17px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	background: #b2b2b2;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: -1em;
+	float: right;
+}
+
+.button:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+.logo {
+	width: 7%;
+	height: 7%;
+	float: left;
+	clear: both;
+}
+.linetofooter {
+	border: 1px solid white;
+	margin-top: 150px;
+}
+
+footer {
+	background: #7e7e7e;
+	max-width: 10	0%;
+	padding: 10px 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+.content {
+	width: 40%;
+	height: 40%;
+}
+footer a {
+	color: #dbdbdb;
+}
+
+#sitemap {
+	float: left;
+	margin-left: 25px;
+}
+
+#sitemap div {
+	display: inline-block;
+}
+
+#sitemap a {
+	display: block;
+	text-decoration: none;
+	font-size: 0.75em;
+	margin-bottom: 5px;
+}
+
+#sitemap a:hover {
+	text-decoration: underline;
+}
+#sitemap h3:hover {
+	text-decoration: none;
+}
+#socialmedia {
+	float: left;
+	margin-left: 75px;
+}
+
+#socialmedia div {
+	display: inline-block;
+}
+
+#socialmedia a {
+	display: block;
+	text-decoration: none;
+	font-size: 0.75em;
+	margin-bottom: 5px;
+}
+
+#socialmedia a:hover {
+	text-decoration: underline;
+}
+#socialmedia h3:hover {
+	text-decoration: none;
+}
