@@ -1,0 +1,43 @@
+.navbar-custom{
+  position: relative;
+}
+
+.navbar-brand-custom{
+  position: relative;
+  left: 10rem;
+  top: 0.5rem;
+}
+
+.navbar-collapse-custom-1{
+  position: relative;
+  left: 21rem;
+  top: 0.5rem;
+}
+
+.navbar-collapse-custom-2{
+  position: relative;
+  left: 21rem;
+  top:-0.5rem;
+  font-size: 1.3rem;
+  height: 1rem;
+}
+
+.navbar-nav-custom-2 li{
+  padding-right: 1rem;
+}
+
+.button-bar-custom-1{
+  position: relative;
+  left: 80rem;
+  top: -5rem;
+}
+
+.login{
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+.signup{
+  font-size: 1.2rem;
+  width: 6rem;
+}
