@@ -1,0 +1,50 @@
+.menubutton{
+  position: relative;
+  text-align: center;
+  left: 15vw;
+  width: 70vw;
+}
+
+.search{
+  margin: auto;
+  width: 280px;
+  text-align: center;
+}
+
+.choose{
+  margin: auto;
+  margin-top: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.tablecontainer{
+  width: 30vw;
+  display: inline-block;
+}
+
+.tablecontainer:hover{
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.tabletitle p{
+  margin-left: 30px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+#tablelol, #tablecsgo, #tablehs{
+  position: relative;
+  margin-top: 50px;
+  left: 15vw;
+}
+
+#tabledota, #tableow{
+  position: relative;
+  left: 25vw;
+}
+
+#table-title-csgo p{
+  font-size: 19px;
+}
