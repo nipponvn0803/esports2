@@ -23,10 +23,12 @@ html, body{
   top:-0.5rem;
   font-size: 1.3rem;
   height: 1rem;
+  padding-top: 1rem;
 }
 
 .navbar-nav-custom-2 li{
   padding-right: 1rem;
+  
 }
 
 .button-bar-custom-1{
@@ -39,9 +41,16 @@ html, body{
 .login{
   font-size: 1.2rem;
   width: 6rem;
+  position: relative;
 }
 
 .signup{
   font-size: 1.2rem;
   width: 6rem;
+    position: relative;
+}
+
+.shit {
+	width: 20rem;
+	height: 20rem;
 }
