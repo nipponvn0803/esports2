@@ -1,0 +1,40 @@
+.tabletitle{
+  margin: auto;
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.menubutton{
+  margin: auto;
+}
+
+#tablelol, #tablecsgo, #tablehs{
+  position: relative;
+  margin-top: 50px;
+  left: 15vw;
+}
+
+#tabledota, #tableow{
+  position: relative;
+  left: 25vw;
+}
+
+#table-title-csgo p{
+  font-size: 17px;
+}
+
+.tablecontainer{
+  width: 30vw;
+  display: inline-block;
+}
+
+.tabletitle:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.tabletitle p{
+  margin-left: 30px;
+  display: inline-block;
+  font-size: 30px;
+}
