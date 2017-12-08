@@ -28,7 +28,7 @@ html, body{
 
 .navbar-nav-custom-2 li{
   padding-right: 1rem;
-  
+
 }
 
 .button-bar-custom-1{
@@ -53,11 +53,4 @@ html, body{
 .shit {
 	width: 20rem;
 	height: 20rem;
-}
-
-.menubutton{
-  position: relative;
-  text-align: center;
-  left: 15vw;
-  width: 70vw;
 }
