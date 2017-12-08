@@ -31,7 +31,7 @@ html, body{
 
 .button-bar-custom-1{
   position: relative;
-  left: 75rem;
+  left: 75vw;
   top: -5rem;
   width: 13rem;
 }

@@ -100,7 +100,7 @@
       {
         border: 1px solid black;
         margin-right: 20px;
-        height: 280px;
+        height: 264px;
         width: 210px;
         background-color: #a4a4a4;
       }
@@ -108,7 +108,7 @@
       .game-icon-box
       {
         float: left;
-        height: 278px;
+        height: 262px;
         width: 30px;
         
         border-right: 1px solid black;
