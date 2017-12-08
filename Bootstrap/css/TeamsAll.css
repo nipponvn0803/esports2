@@ -5,14 +5,27 @@
   width: 70vw;
 }
 
+.search{
+  margin: auto;
+  width: 280px;
+  text-align: center;
+}
+
+.choose{
+  margin: auto;
+  margin-top: 40px;
+  width: 400px;
+  text-align: center;
+}
+
 .tablecontainer{
   width: 30vw;
   display: inline-block;
 }
 
-.tabletitle:hover{
-    transform: scale(1.1, 1.1);
-    cursor: pointer;
+.tablecontainer:hover{
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 
 .tabletitle p{
@@ -33,5 +46,5 @@
 }
 
 #table-title-csgo p{
-  font-size: 17px;
+  font-size: 19px;
 }
