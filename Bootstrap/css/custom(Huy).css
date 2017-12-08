@@ -1,0 +1,35 @@
+        .box1
+    	{
+    		height: 400px;
+    		width: 800px;
+    	}
+
+    	.carousel-indicators
+    	{
+    		bottom: 350px !important;
+    		padding-right: 600px !important;
+    		margin-right: 0% !important;
+    		margin-left: 0% !important;
+    	}
+
+    	.carousel-indicators li
+    	{
+    		max-width: 50px !important;
+    		height: 5px !important;
+    	}
+
+    	.box2{
+    		height: 100px;
+    		width: 600px;
+    		background-color: gray;
+
+    	}
+
+    	.carousel-caption
+    	{
+    		background-color: rgb(100,100,100);
+    		opacity: 0.9;
+    		bottom: 20px !important;
+    		border-radius: 5px;
+    		padding-bottom: 10px !important;
+    	}
