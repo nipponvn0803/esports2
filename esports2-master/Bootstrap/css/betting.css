@@ -1,0 +1,169 @@
+.bettinwrap {
+	/*border: 2px solid red;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	width: 20%;
+	padding-bottom: 3em;
+}
+.gamechose {
+	/*border: 2px solid blue;*/
+	float: left;
+}
+.gamelogo {
+	width: 5em;
+	height: 5em;
+	float: left;
+	overflow: hidden;
+}
+.menuSystem {
+	float: left;
+	margin-left: 2.5em;
+}
+#menu {
+	border-radius: 8px;
+	background-color: rgb(100,100,100);
+	color: white;
+	font-size: 125%;
+}
+h4 {
+	text-align: center;
+}
+.firstmatch {
+	display: inline;
+	margin-bottom: 3em;
+	margin-left: 25em;
+	margin-right: 25em;
+}
+.alogo {
+	width: 10em;
+	height: 10em;
+	float: left;
+}
+.blogo {
+	width: 10em;
+	height: 10em;
+	float: right;
+}
+table.text  {
+    width:  100%;
+    border-spacing: 0;
+	font-size: 125%;
+	font-weight: bold;
+}
+table.text td {
+    width: 50%;
+    vertical-align: top; 
+}
+td.rightcol { 
+    text-align: right; 
+	padding-right: 2.5em;
+}
+td.leftcol {
+	text-align: left;
+	padding-left: 2.5em;
+}
+.percenta {
+	margin-left: 5em;
+	margin-top: 3.5em;
+	font-weight: bold;
+	font-size: 125%;
+	float: left;
+	text-align: center;
+}
+.percentb {
+	margin-right: 5em;
+	margin-top: 3.5em;
+	font-weight: bold;
+	font-size: 125%;
+	float: right;
+	text-align: center;
+}
+.value {
+	font-style: italic;
+	font-size: 90%;
+}
+.betteam {
+display: block;
+box-sizing: border-box;
+margin: 0 auto;
+padding: 5px;
+width: 100%;
+max-width: 150px;
+background: #fff;
+background: rgba(100, 100, 100, 0.8);
+border-radius: 8px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+letter-spacing: 1px;
+transition: all 0.3s ease-out;
+margin-top: 2em;
+}
+#teamabutton {
+	float: left;
+	font-size: 125%;
+	margin-left: 11.2em;
+}
+.timer {
+	color: #fff;
+	font-size: 150%;
+	float: left;
+	margin-left: 10.5em;
+}
+.btn {
+
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #AAA;
+}
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #AAA;
+}
+.btn-primary {
+	background-color: #606060;
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+}
+.betonright {
+	float: right;
+	
+}
+.variables {
+	float: left;
+	margin-left: 5em;
+	margin-bottom: 1em;
+}
+.input-group {
+	float: left;
+}
+.teamchoice {
+	font-weight: bold;
+	font-size: 2em;
+	margin-left: 7em;
+}
+.variables1 {
+	float:left;
+	margin-left: 24em;
+}
+#firstline {
+	margin-left: 10em;
+}
+.placebet {
+	padding-bottom: 10em;
+}
+#tocenter {
+	margin-top: 3%;
+}
+#twitch-embed {
+	margin: auto;
+}
+.livestream {
+	margin: auto;
+	margin-bottom: 1em;
+	color: #AAA;
+}

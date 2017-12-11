@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/custom(Trinh Son).css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="Bootstrap/css/footer.css">
+	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">
+	<link rel="stylesheet" href="Bootstrap/css/betting.css">
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  </head>
+  <body>
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <script>
+            $(document).ready(function() {                
+                var t = TweenLite.to($("ul.menu"), 0.25, {opacity: 1, top: "0px", "z-index": 1});
+                t.reversed(true);
+
+                $("button#menu").click(function() {
+                    if(t.reversed())
+                    {
+                        t.play();
+                    }
+                    else
+                    {
+                        t.reverse();
+                    }
+                    //t.reversed() ? t.play() : t.reverse();
+                });
+            });
+        </script>
+
+      <div class="collapse navbar-collapse navbar-collapse-custom-1" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">All games <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">League of Legends</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DotA2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CS:GO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Overwatch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hearthstone</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+      <div class="collapse navbar-collapse navbar-collapse-custom-2">
+        <ul class="navbar-nav mr-auto navbar-nav-custom-2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="betting.html">Betting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Teams</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Players</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Social Media</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="button-bar-custom-1">
+      <button type="button" class="btn btn-outline-success login">Login</button>
+      <button type="button" class="btn btn-outline-danger signup">Sign up</button>
+    </div>
+	</div>
+	<div class="firstmatch" id="tocenter">	
+	 <img src="logo.jpg" class="alogo">
+		<img src="logo.jpg" class="blogo"> 
+		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
+		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
+		<div class="variables" id="firstline">
+    		<div class="input-group">
+    			<div id="radioBtn" class="btn-group">
+    				<a class="btn btn-primary btn1-sm active" data-toggle="data" data-title="first">Match winner</a>
+                       <a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="second">Handicap</a>
+    				<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="third">Handicap</a>
+    			</div>
+    		</div>	
+		</div>
+		<div class="variables">
+			<div class="input-group">
+				<div id="radioBtn" class="btn-group">
+					<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="first1">First 10 kills (1 map)</a>
+					<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="second2">First 10 kills (2 map)</a>
+					<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="third3">First 10 kills (3 map)</a>
+				</div>
+			</div>	
+		</div>
+		<span class="teamchoice"> Team choice </span></br>
+		<div class="variables1">
+			<div class="input-group">
+				<div id="radioBtn" class="btn-group">
+					<a class="btn btn-primary btn1-sm active" data-toggle="data1" data-title="first1">Team A</a>
+					<a class="btn btn-primary btn1-sm notActive" data-toggle="data1" data-title="second2">Team B</a>
+				</div>
+			</div>	
+		</div>			
+		<table class="text">
+			<tr>
+				<td class="leftcol">Team A</td>
+				<td class="rightcol">Team B</td>
+			</tr>
+		</table>
+	</div>
+		<div class="firstmatch">
+		<a class="betteam" id="placebet" href="#">Place a bet</a>
+	</div>
+	<h1 class="livestream">Livestream</h1>
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "sunmote",
+		layout: "video"
+      });
+    </script>
+<script>
+		$('.btn-group a').on('click', function(){
+    var sel = $(this).data('title');
+    var tog = $(this).data('toggle');
+    $('#'+tog).prop('value', sel);
+    
+    $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+    $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+})</script>
+
+
+	<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"> LOGO </a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Something else	</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
+    </footer>
+  </body>
+</html>

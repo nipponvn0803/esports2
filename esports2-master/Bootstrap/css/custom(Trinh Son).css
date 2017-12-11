@@ -28,12 +28,12 @@ html, body{
 
 .navbar-nav-custom-2 li{
   padding-right: 1rem;
-
+  
 }
 
 .button-bar-custom-1{
   position: relative;
-  left: 75vw;
+  left: 75rem;
   top: -5rem;
   width: 13rem;
 }
@@ -54,22 +54,9 @@ html, body{
 	width: 20rem;
 	height: 20rem;
 }
-
-.logo-main{
-  margin-top: -170px;
-  margin-left: 130px;
-  z-index: 100;
-  width: 200px;
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
-}
-
-#logo-page-main{
-  width: 150px;
-  height: 150px;
 }
 
 .dropdown-content {
