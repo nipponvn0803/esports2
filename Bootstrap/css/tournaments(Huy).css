@@ -1,0 +1,101 @@
+.tournaments-box
+{
+	height: 445px;
+    width: 300px;
+    background-color: red;
+    padding: 0px 10px 10px 10px;
+    background-color: #424242;
+    border-radius: 4px;
+    
+    position: relative;
+    top:-300px;
+    left: 1000px;
+
+}
+
+.box-info
+{
+	width: 280px;
+	height: 35px;
+	text-align: center;
+	font-size: 17px;
+	color: #d2d2d2;
+	font-family: "open sans",Tahoma,Arial,Sans-Serif;
+}
+
+.image-container
+{
+	height: 100px;
+	width: 280px;
+
+}
+
+#tournaments1
+{
+	background-image: url("https://www.gannett-cdn.com/-mm-/d89f49a05027c2c5e3acf9e3f0cb8ec05b9089c8/c=4-0-1916-1080&r=x1683&c=3200x1680/local/-/media/2016/11/04/USATODAY/USATODAY/636138663193372885-ow-league-logo.jpg");
+	background-size: 280px 100px;
+}
+
+#tournaments2
+{
+	background-image: url("https://euw.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/lcs_icon_1920x1080.jpg?itok=ChoDvxwD");
+	background-size: 280px 100px;
+}
+
+#tournaments3
+{
+	background-image: url("https://cdn-az.allevents.in/banners/ada84b75e0ef4d9639ad71fef06b889b");
+	background-size: 280px 100px;
+}
+
+#tournaments4
+{
+	background-image: url("http://www.gosugamers.net/files/images/news/2017/may/galaxy%20battles%20title.JPG");
+	background-size: 280px 100px;
+}
+
+.leauge-info
+{
+	width: 280px;
+	height: 20px;
+	background-color: #1c1c1c;
+
+
+}
+
+.leauge-info:hover
+{
+	width: 280px;
+	height: 20px;
+	background-color: #1c1c1c;
+}
+
+.font1
+{
+	font-size: 15px;
+	font-family: Tahoma,sans-serif;
+
+}
+
+.icon-image
+{
+	margin-bottom: 3px;
+}
+
+.big-info
+{
+	height: 100px;
+	width: 280px;
+	padding-top: 80px;
+	opacity: 0.5;
+}
+
+.big-info:hover
+{
+	height: 100px;
+	width: 280px;
+	padding-top: 80px;
+	opacity: 0.95;
+}
+
+

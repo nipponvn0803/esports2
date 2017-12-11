@@ -1,7 +1,10 @@
+
         .box1
     	{
     		height: 400px;
     		width: 800px;
+            margin-left: 50px;
+
     	}
 
     	.carousel-indicators

@@ -1,0 +1,54 @@
+.daily-box
+{
+	width: 280px;
+	height: 980px;
+	background-color: #606060;
+	border-radius: 4px;
+	padding: 8px 10px 8px 10px;
+	position: relative;
+	top: -750px;
+	left: 35px;
+
+}
+
+.daily-news
+{
+	width: 260px;
+	height: 948px;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: #e6e6e6;
+	overflow: hidden;
+}
+
+td
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: black;
+	border-bottom: 2px solid #a4a4a4;
+}
+
+.news-text
+{
+	padding-left: 4px;
+	font-size: 14px;
+}
+
+.comment-icon
+{
+	width: 16px;
+	height: 16px;
+}
+
+.comment-number
+{
+	font-size: 13px;
+}
+
+.date1
+{
+	font-weight: bold;
+	padding-top: 20px;
+}
+
