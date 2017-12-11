@@ -1,3 +1,7 @@
+#team-1, #team-2:hover{
+  cursor: pointer;
+}
+
 .tabletitle{
   margin: auto;
   width: 100vw;
@@ -8,33 +12,113 @@
   margin: auto;
 }
 
-#tablelol, #tablecsgo, #tablehs{
-  position: relative;
-  margin-top: 50px;
-  left: 15vw;
-}
-
-#tabledota, #tableow{
-  position: relative;
-  left: 25vw;
-}
-
-#table-title-csgo p{
-  font-size: 17px;
-}
-
 .tablecontainer{
   width: 30vw;
   display: inline-block;
 }
 
 .tabletitle:hover{
-    transform: scale(1.1, 1.1);
-    cursor: pointer;
+
 }
 
 .tabletitle p{
   margin-left: 30px;
   display: inline-block;
   font-size: 30px;
+}
+
+#tabledota, #tableow, #tablelol, #tablecsgo, #tablehs{
+  position: relative;
+  left: 15vw;
+}
+
+#table-title-csgo p{
+  font-size: 17px;
+}
+
+#detailcontainer{
+  position: relative;
+  top: -1000px;
+  left: 50vw;
+  width: 35vw;
+}
+
+.detail{
+  width: 35vw;
+  height: 520px;
+}
+
+.logodetail{
+  width: 100px;
+  height: 100px;
+}
+
+.name-detail{
+    font-size: 30px;
+}
+
+#ranking-detail{
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+.header-detail{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile-pictures{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  width: 400px;
+  min-width: 400px;
+}
+
+.one-profile-picture{
+  width: 50px;
+  height:50px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.name-container{
+  width: 70px;
+  position: relative;
+  left: 23px;
+  top: 10px;
+}
+
+.pnn{
+  display: inline-block;
+}
+
+.prize-money{
+  font-size: 25px;
+  text-align: center;
+}
+
+hr{
+  width: 70%;
+  background-color: : white;
+  display: block;
+  border-style: inset;
+  border-width: 2px;
+}
+
+#arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  left: 17vw;
+}
+
+.arrow-right {
+    transform: rotate(-45deg) scale(2,2);
+}
+
+.arrow-container{
+  display: inline-block;
 }
