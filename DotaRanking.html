@@ -2,10 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>All Teams</title>
+    <title></title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Bootstrap/css/custom(Trinh Son).css">
-
     <link rel="stylesheet" href="Bootstrap/css/footer.css">
     <link rel="stylesheet" href="Bootstrap/css/Ranking(Game).css">
   </head>
@@ -43,20 +42,20 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
           <div class="collapse navbar-collapse navbar-collapse-custom-2">
             <ul class="navbar-nav mr-auto navbar-nav-custom-2">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html">News <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Betting</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="RankingAll.html">Ranking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Teams</a>
+                <a class="nav-link" href="TeamsAll.html">Teams</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Players</a>
+                <a class="nav-link" href="PlayersAll.html">Players</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Social Media</a>
@@ -77,6 +76,8 @@
         <a href="DotaPlayers.html"><button type="button" class="btn btn-primary btn-lg">Players statistics</button></a>
       </div>
 
+      <div class="">
+
       <div class="tablecontainer" id="tabledota">
         <a href="DotaNews.html">
           <div class="tabletitle" id="table-title-dota">
@@ -93,12 +94,12 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr id="team-1" onclick="showTeam1()">
               <td>1</td>
               <td>Team A</td>
               <td>2000</td>
             </tr>
-            <tr>
+            <tr id="team-2" onclick="showTeam2()">
               <td>2</td>
               <td>Team B</td>
               <td>1900</td>
@@ -143,9 +144,369 @@
               <td>Team J</td>
               <td>1100</td>
             </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Team J</td>
+              <td>1100</td>
+            </tr>
           </tbody>
         </table>
       </div>
+
+      <div class="arrow-container">
+        <i id="arrow" class="arrow-right"></i>
+      </div>
+
+      <div class="" id="detailcontainer">
+          <div class="" id="table-title-detail">
+
+          </div>
+
+          <div class="detail" id="detail1">
+            <div class="header-detail">
+              <a href="#"> <img src="images/dota-team-1.png" class="logodetail" alt=""> </a>
+
+              <a href="#"><p class="team-name name-detail"><b>Team A</b></p></a>
+            </div>
+
+            <div class="profile-pictures">
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="prize-money">
+              <p>Total prize money earned</p>
+              <p>$14,291,377.04</p>
+            </div>
+
+            <hr>
+
+            <div class="recent-results">
+              <p style="font-size: 20px;">Recent results</p>
+
+              <table class="table table-hover result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">VS</th>
+                    <th scope="col">Result</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+
+                  </tbody>
+                </table>
+            </div>
+
+            <hr>
+
+            <div class="achievements">
+              <p style="font-size: 20px;">Achievements</p>
+
+              <table class="table table-hover result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Tournament</th>
+                    <th scope="col">Placement</th>
+                    <th scope="col">Earnings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+
+                  </tbody>
+                </table>
+            </div>
+          </div>
+
+          <div class="detail" id="detail2">
+            <div class="header-detail">
+              <a href="#"> <img src="images/dota-team-2.png" class="logodetail" alt=""> </a>
+
+              <a href="#"><p class="team-name name-detail"><b>Team B</b></p></a>
+            </div>
+
+            <div class="profile-pictures">
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+
+              <div class="pnn">
+                <a href="#"> <img class="one-profile-picture" src="Images/profile.jpg" alt=""> </a>
+                <div class="name-container">
+                  <p>Player 1</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="prize-money">
+              <p>Total prize money earned</p>
+              <p>$10,201,307.04</p>
+            </div>
+
+            <hr>
+
+            <div class="recent-results">
+              <p style="font-size: 20px;">Recent results</p>
+
+              <table class="table table-hover result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">VS</th>
+                    <th scope="col">Result</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+                  <tr>
+                    <td>Team B</td>
+                    <td>1 - 0</td>
+                    <td>10/05/2017</td>
+                  </tr>
+
+                  </tbody>
+                </table>
+            </div>
+
+            <hr>
+
+            <div class="achievements">
+              <p style="font-size: 20px;">Achievements</p>
+
+              <table class="table table-hover result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Tournament</th>
+                    <th scope="col">Placement</th>
+                    <th scope="col">Earnings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+                  <tr>
+                    <td>Dreamhack 2017</td>
+                    <td>1st</td>
+                    <td>$120,000</td>
+                  </tr>
+
+                  </tbody>
+                </table>
+            </div>
+          </div>
+      </div>
+
+      </div>
+
+
 
       <footer id="myFooter">
           <div class="container">
@@ -191,5 +552,7 @@
               <p>© 2016 Copyright Text </p>
           </div>
       </footer>
+
+      <script src="Bootstrap/js/Ranking(Game).js" charset="utf-8"></script>
   </body>
 </html>

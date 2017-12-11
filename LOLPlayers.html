@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>All Teams</title>
+    <title></title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Bootstrap/css/custom(Trinh Son).css">
-    <link rel="stylesheet" href="Bootstrap/css/TeamsAll.css">
+    <link rel="stylesheet" href="Bootstrap/css/Teams(Game).css">
     <link rel="stylesheet" href="Bootstrap/css/footer.css">
   </head>
   <body>
@@ -17,10 +17,10 @@
 
           <div class="collapse navbar-collapse navbar-collapse-custom-1" id="navbarColor03">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">All games <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">League of Legends</a>
               </li>
               <li class="nav-item">
@@ -51,10 +51,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="RankingAll.html">Ranking</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="TeamsAll.html">Teams</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="PlayersAll.html">Players</a>
               </li>
               <li class="nav-item">
@@ -69,67 +69,80 @@
           <button type="button" class="btn btn-outline-danger signup">Sign up</button>
         </div>
     	</div>
-
-      <div class="menubutton">
-        <a href="RankingAll.html"><button type="button" class="btn btn-primary btn-lg">Teams ranking</button></a>
-        <a href="TeamsAll.html"><button type="button" class="btn btn-primary btn-lg active">Teams statistics</button></a>
-        <a href="PlayersAll.html"><button type="button" class="btn btn-primary btn-lg">Players statistics</button></a>
-      </div>
-
-      <div class="choose">
-        <h1>Please choose a game</h1>
-      </div>
-
-        <div id="tablecontainer1">
-          <a href="LOLTeams.html">
-            <div class="tablecontainer" id="tablelol">
-              <div class="tabletitle" id="table-title-lol">
-                <img src="Images/lol.png" style="width: 150px; height: 150px" alt="">
-                <p>League of Legends</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="DotaTeams.html">
-            <div class="tablecontainer" id="tabledota">
-              <div class="tabletitle" id="table-title-dota">
-                <img src="Images/dota.png" style="width: 120px; height: 120px; margin-bottom:20px" alt="">
-                <p>DotA2</p>
-              </div>
-            </div>
-          </a>
+        <div class="game-name">
+          <img id="game-logo" src="Images/LOL.png" alt="">
+          <h1 id="game-name">League of Legends players</h1>
         </div>
 
-        <div id="tablecontainer2">
-          <a href="CSGOTeams.html">
-            <div class="tablecontainer" id="tablecsgo">
-              <div class="tabletitle" id="table-title-csgo">
-                <img src="Images/csgo.png" style="width: 150px; height: 150px" alt="">
-                <p>Counter-Strike: Global Offensive</p>
-              </div>
-            </div>
-          </a>
+            <div class="search">
 
-          <a href="OWTeams.html">
-            <div class="tablecontainer" id="tableow">
-              <div class="tabletitle" id="table-title-ow">
-                <img src="Images/ow.png" style="width: 120px; height: 120px; margin-bottom:20px" alt="">
-                <p>Overwatch</p>
+              <div id="input">
+                <input class="form-control mr-sm-2" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for players name" title="Type in a name">
               </div>
-            </div>
-          </a>
-        </div>
 
-        <div id="tablecontainer3">
-          <a href="HSPlayers.html">
-            <div class="tablecontainer" id="tablehs">
-              <div class="tabletitle" id="table-title-hs">
-                <img src="Images/hs.png" style="width: 150px; height: 150px" alt="">
-                <p>Hearthstone</p>
-              </div>
+              <table id="myTable" class="table table-hover">
+                <thead>
+                <tr class="header">
+                  <th scope="col" style="width:30%;">Game tag</th>
+                  <th scope="col" style="width:30%;">Name</th>
+                  <th scope="col" style="width:20%;">Team</th>
+                  <th scope="col" style="width:20%;">Country</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-dark">
+                  <td>ana</td>
+                  <td>Anathan Pham</td>
+                  <td></td>
+                  <td>Australia</td>
+                </tr>
+                <tr>
+                  <td>9pasha</td>
+                  <td>Павел Хвастунов</td>
+                  <td>Virtus.Pro</td>
+                  <td>Russia</td>
+                </tr>
+                <tr class="table-dark">
+                  <td>Eternal Envy</td>
+                  <td>Jacky Mao</td>
+                  <td>Fnatic</td>
+                  <td>Canada</td>
+                </tr>
+                <tr>
+                  <td>Dendi</td>
+                  <td>Данило Ішутін</td>
+                  <td>Natus Vincere</td>
+                  <td>Ukraine</td>
+                </tr>
+                <tr class="table-dark">
+                  <td>LoL_Player</td>
+                  <td>Player</td>
+                  <td>Team</td>
+                  <td>Country</td>
+                </tr>
+                <tr>
+                  <td>LoL_Player</td>
+                  <td>Player</td>
+                  <td>Team</td>
+                  <td>Country</td>
+                </tr>
+                <tr class="table-dark">
+                  <td>LoL_Player</td>
+                  <td>Player</td>
+                  <td>Team</td>
+                  <td>Country</td>
+                </tr>
+                <tr>
+                  <td>LoL_Player</td>
+                  <td>Player</td>
+                  <td>Team</td>
+                  <td>Country</td>
+                </tr>
+              </tbody>
+              </table>
+
+
             </div>
-          </a>
-        </div>
 
       <footer id="myFooter">
           <div class="container">
@@ -175,5 +188,7 @@
               <p>© 2016 Copyright Text </p>
           </div>
       </footer>
+
+      <script src="Bootstrap/js/Teams(Game).js" charset="utf-8"></script>
   </body>
 </html>

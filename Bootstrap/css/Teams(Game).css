@@ -1,0 +1,29 @@
+#game-name{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.search{
+  width: 40vw;
+  margin: auto;
+  text-align: center;
+}
+
+#myInput{
+  margin-top: 20px;
+  width: 40vw;
+}
+
+#myTable{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.game-name{
+  text-align: center;
+}
+
+#game-logo{
+  width: 100px;
+  height: 100px
+}
