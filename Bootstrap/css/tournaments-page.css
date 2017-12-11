@@ -3,5 +3,89 @@
 	height: 200px;
 	width: 1000px;
 	background-color: red;
-	margin-left: 150px;
+	margin-left: 136px;
+	margin-bottom: 30px;
+}
+
+.tournament-info
+{
+	width: 700px;
+	background-color: white;
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+	padding:20px 20px 20px 20px;
+}
+
+.tournament-matches
+{
+	height: 475px;
+	width: 250px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	overflow: hidden;
+	color: black;
+}
+
+.icon
+{
+	height: 25px;
+	width: 25px;
+}
+
+.team-icon
+{
+	height: 20px;
+	width: 20px;
+}
+
+.A-B
+{
+	background-color: #d8d8d8;
+	border:1px solid #606060;
+	height: 50px;
+	text-align: center;
+}
+
+#Preseason
+{
+	width:240px;
+	padding-left: 20px;
+	padding-bottom: 80px;
+
+}
+
+.border-table
+{
+	background-color: #e6e6e6;
+	border: 1px solid #848484;
+}
+
+.advertisement
+{
+	height: 475px;
+	width: 250px;
+	background-color: #e6e6e6;
+	color: black;
+}
+
+.tournament-chart
+{
+	height: 400px;
+	width: 700px;
+	padding-left: 31px;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.select-team
+{
+	height: 22px;
+	width: 200px;
+	overflow: hidden;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+.playoffs
+{
+	background-color: #6e6e6e;
+	font-size: 25px;
 }
