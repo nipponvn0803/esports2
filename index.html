@@ -76,456 +76,665 @@
 	</div>
 
 
+  <div class="grid-home">
+      <div class="row"> <!--GRID START-->
+       <div class="col-sm-8" style="padding-left: 80px; padding-top: 20px;"><!--SLIDER-->
+                <div class="box1"> <!--SLIDER START-->
+                  <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel" data-slide-to="0" class="active"></li> <!--This is for button-->
+                      <li data-target="#carousel" data-slide-to="1" ></li>
+                      <li data-target="#carousel" data-slide-to="2" ></li>
+                    </ol>
 
-    <div class="box1"> <!--SLIDER START-->
-        <div id="carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li> <!--This is for button-->
-            <li data-target="#carousel" data-slide-to="1" ></li>
-            <li data-target="#carousel" data-slide-to="2" ></li>
-          </ol>
+                    <div class="carousel-inner">
 
-          <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="http://www.sportsdouchebags.com/wp-content/uploads/2016/06/what-is-an-esport.jpg" height="400" width="800" alt="First slide" class="b-block">
+                          <div class="carousel-caption">
+                            <h3>FIRST</h3> <!-- this is headline then text for the picture-->
+                            <p>Hello first slide</p>
+                          </div>
+                      </div>
 
-            <div class="carousel-item active">
-              <img src="http://www.sportsdouchebags.com/wp-content/uploads/2016/06/what-is-an-esport.jpg" height="400" width="800" alt="First slide" class="b-block">
-                <div class="carousel-caption">
-                  <h3>FIRST</h3> <!-- this is headline then text for the picture-->
-                  <p>Hello first slide</p>
-                </div>
-            </div>
+                      <div class="carousel-item">
+                        <img src="http://cdn.eventmarketer.com/wp-content/uploads/2017/03/ESports_IEM-3.jpg" height="400" width="800" alt="First slide" class="b-block ">
+                          <div class="carousel-caption">
+                            <h3>SECOND</h3>
+                            <p>Hello second slide</p>
+                          </div>
+                      </div>
 
-            <div class="carousel-item">
-              <img src="http://cdn.eventmarketer.com/wp-content/uploads/2017/03/ESports_IEM-3.jpg" height="400" width="800" alt="First slide" class="b-block ">
-                <div class="carousel-caption">
-                  <h3>SECOND</h3>
-                  <p>Hello second slide</p>
-                </div>
-            </div>
+                      <div class="carousel-item">
+                        <img src="http://s.marketwatch.com/public/resources/MWimages/MW-DM776_esport_ZG_20150527143328.jpg" height="400" width="800" alt="First slide" class="b-block ">
 
-            <div class="carousel-item">
-              <img src="http://s.marketwatch.com/public/resources/MWimages/MW-DM776_esport_ZG_20150527143328.jpg" height="400" width="800" alt="First slide" class="b-block ">
+                          <div class="carousel-caption">
+                            <h3>THIRD</h3>
+                            <p>Hello noobs slide</p>
+                          </div>
+                      </div>
+                    </div>
 
-                <div class="carousel-caption">
-                  <h3>THIRD</h3>
-                  <p>Hello noobs slide</p>
-                </div>
-            </div>
+                    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Prev</span>
+                    </a>
+
+                    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+              </div><!--SLIDER END HERE-->
+       </div>
+       <div class="col-sm-4" style="padding-left: 35px;"><!--match box-->
+                    <div class="matchbox"><!--This is the match and stream box START-->
+                        <div class="nav-bar-match">
+                          <ul>
+                            <li><a href="Matches-stream.html" id="onlink">Matches</a></li>
+                            <li><a href="livestream-stream.html">Livestream</a></li>
+                          </ul>
+                        </div>
+                        <div class="main_container">
+                          <div class="buttons">
+                            <div class="center-button" style="text-align: center;">
+                              <button type="button" class="" id="ongoing" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Ongoing()"  >Ongoing</button>
+                              <button type="button" class="" id="upcoming" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Upcoming()">Upcoming</button>
+                              <button type="button" class="" id="finished" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Finished()">Finished</button>
+                            </div>
+                                <div class="game-box" id="ongoing-matches">
+                                  <table style="text-align: center;">
+                                      <thead class="table-head">
+                                        <td width="50">Game</td>
+                                        <td width="160">Team</td>
+                                        <td width="70">Status</td>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Liquid vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td width="35"><img src="http://2.bp.blogspot.com/-HqSOKIIV59A/U8WP4WFW28I/AAAAAAAAT5U/qTSiV9UgvUY/s1600/icon.png" class="icon"></td>
+                                          <td width="160"><img src="http://www.team-dignitas.net//uploads/user_avatars/C9Logo_Shirt_Front.png" class="icon"> C9 vs <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Team_SoloMid_Logo.png" class="icon"> TSM</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="live-match">Live</td>
+                                        </tr>
+
+                                        <tr style="text-align: center; font-size: 15px;">
+                                          <td></td>
+                                          <td>More...</td>
+                                          <td></td>
+                                        </tr>
+
+
+                                      </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="game-box" id="upcoming-matches">
+                                  <table style="text-align: center;">
+                                      <thead class="table-head">
+                                        <td width="50">Game</td>
+                                        <td width="160">Team</td>
+                                        <td width="70">Status</td>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Faxe vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
+                                          <td width="70" class="upcoming-match">30min</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
+                                          <td width="70" class="upcoming-match">45 min</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://orig00.deviantart.net/c5ee/f/2014/147/8/e/dota_2_icon_by_captain_connor-d7k12s2.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">45 min</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">1h7min</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">1h17min</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">1h17min</td>
+                                        </tr>
+
+                                        <tr style="text-align: center; font-size: 15px;">
+                                          <td></td>
+                                          <td>More...</td>
+                                          <td></td>
+                                        </tr>
+
+
+                                      </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="game-box" id="finished-matches">
+                                  <table style="text-align: center;">
+                                      <thead class="table-head">
+                                        <td width="50">Game</td>
+                                        <td width="160">Team</td>
+                                        <td width="70">Status</td>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Faxe vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
+                                          <td width="70" class="upcoming-match">2-0</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
+                                          <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
+                                          <td width="70" class="upcoming-match">0-1</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://orig00.deviantart.net/c5ee/f/2014/147/8/e/dota_2_icon_by_captain_connor-d7k12s2.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">1-0</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">2-0</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">2-1</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
+                                          <td>A vs B</td>
+                                          <td width="70" class="upcoming-match">1-2</td>
+                                        </tr>
+
+                                        <tr style="text-align: center; font-size: 15px;">
+                                          <td></td>
+                                          <td>More...</td>
+                                          <td></td>
+                                        </tr>
+
+
+                                      </tbody>
+                                    </table>
+                                </div>
+
+                          </div>
+                        </div>
+                        </div>
+                    </div><!--This is the match and stream box END-->
+       </div>
+      </div>
+
+       <div class="row" >
+         <div class="col-sm-3" style="padding-left: 50px; padding-top: 35px;" ><!--daily-->
+                            <div class="daily-box"> <!--daily START-->
+                                <div class="daily-news">
+                                  <table>
+                                    <thead style="background-color: #a4a4a4; ">
+                                      <th width="30"></th>
+                                      <th width="210" style="font-size: 20px; color: #fa5858">Daily News</th>
+                                      <th width="30"></th>
+                                    </thead>
+
+                                    <tbody>
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">Septembet 9, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="http://i.imgur.com/xNLs83T.png" height="25" width="25"></td>
+                                        <td class="news-text"> Season 7 End date</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player abuse wall glitch in competitive</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">Septembet 7, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://orig00.deviantart.net/97fe/f/2013/332/c/4/dota_2_icon_by_benashvili-d6w0695.png" height="25" width="25"></td>
+                                        <td class="news-text"> GESC E-Series: Bangkok will takes play after October</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="http://i.imgur.com/xNLs83T.png" height="25" width="25"></td>
+                                        <td class="news-text"> SSG overthrown SKT and win Worlds championship</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://orig00.deviantart.net/97fe/f/2013/332/c/4/dota_2_icon_by_benashvili-d6w0695.png" height="25" width="25"></td>
+                                        <td class="news-text"> New Updates 2.0 cause some controversy</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">Septembet 5, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">Septembet 4, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">Septembet 2, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">August 31, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">August 31, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">August 31, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td></td>
+                                        <td class="date1">August 31, 2017</td>
+                                        <td></td>
+                                      </tr>
+
+                                       <tr>
+                                        <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pavel takes the win in the World series</td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr>
+                                        <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
+                                        <td class="news-text"> Pro player banned for toxic </td>
+                                        <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
+                                      </tr>
+
+
+                                      <tr style="text-align: center;">
+                                        <td></td>
+                                        <td>More...</td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>  <!--daily END-->
           </div>
+         <div class="col-sm-9" >
+            <div class="row" >
+              <div class="col-sm-3.5" style="margin-top: 35px;"><!--small news-->
+                    <div class="news-box"> <!-- SMALL NEWS START-->
 
-          <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Prev</span>
-          </a>
-
-          <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    </div><!--SLIDER END HERE-->
-
-
-
-        <div class="matchbox"><!--This is the match and stream box START-->
-          <div class="nav-bar-match">
-            <ul>
-              <li><a href="Matches-stream.html" id="onlink">Matches</a></li>
-              <li><a href="livestream-stream.html">Livestream</a></li>
-            </ul>
-          </div>
-          <div class="main_container">
-            <div class="buttons">
-              <div class="center-button" style="text-align: center;">
-                <button type="button" class="" id="ongoing" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Ongoing()"  >Ongoing</button>
-                <button type="button" class="" id="upcoming" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Upcoming()">Upcoming</button>
-                <button type="button" class="" id="finished" style="font-size: 13px; padding: 3px 6px 3px 6px;" onclick="Finished()">Finished</button>
+                              <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+                    </div> <!--SMALL NEWS END-->
               </div>
-                  <div class="game-box" id="ongoing-matches">
-                    <table style="text-align: center;">
-                        <thead class="table-head">
-                          <td width="50">Game</td>
-                          <td width="160">Team</td>
-                          <td width="70">Status</td>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Liquid vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
+              <div class="col-sm-3.5" style="margin-top: 35px; margin-left: 15px; "><!--small news-->
+                          <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+              </div>
+              <div class="col-sm-5" style="margin-top:35px; margin-left: 20px;" ><!--tournament-->
+                        <div class="tournaments-box"><!--TOURNAMENTS BOX START-->
+                            <div class="box-info">
+                              <a>Ongoing Esport Tournaments</a>
+                            </div>
 
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
+                              <div id="tournaments1" class="image-container"><!--Image Box Tournament-->
+                                <div class="big-info">
+                                    <div class="leauge-info">
+                                      <img class="icon-image" src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="15" width="20" >
+                                         <a class="font1"> Overwatch Leauge</a>
+                                    </div>
+                                </div>
+                              </div>
 
-                          <tr>
-                            <td width="35"><img src="http://2.bp.blogspot.com/-HqSOKIIV59A/U8WP4WFW28I/AAAAAAAAT5U/qTSiV9UgvUY/s1600/icon.png" class="icon"></td>
-                            <td width="160"><img src="http://www.team-dignitas.net//uploads/user_avatars/C9Logo_Shirt_Front.png" class="icon"> C9 vs <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Team_SoloMid_Logo.png" class="icon"> TSM</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
+                              <div id="tournaments2" class="image-container" ><!--Image Box Tournament-->
+                                <div class="big-info">
+                                    <div class="leauge-info">
+                                  <img class="icon-image" src="http://2.bp.blogspot.com/-HqSOKIIV59A/U8WP4WFW28I/AAAAAAAAT5U/qTSiV9UgvUY/s1600/icon.png" height="15" width="20" >
+                                     <a class="font1"> Leauge of Legends LCS</a>
+                                    </div>
+                                </div>
+                              </div>
 
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
+                              <div id="tournaments3" class="image-container" ><!--Image Box Tournament-->
+                                <div class="big-info">
+                                    <div class="leauge-info">
+                                  <img class="icon-image" src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="15" width="20" >
+                                     <a class="font1"> HS Europe summer preelimination</a>
+                                    </div>
+                                </div>
+                              </div>
 
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
+                              <div id="tournaments4" class="image-container" ><!--Image Box Tournament-->
+                                <div class="big-info">
+                                    <div class="leauge-info">
+                                  <img class="icon-image" src="https://i.pinimg.com/originals/c1/ec/da/c1ecda477bc92b6ecfc533b64d4a0337.png" height="15" width="20" >
+                                     <a class="font1"> HS Europe summer preelimination</a>
+                                    </div>
+                                </div>
+                              </div>
 
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="live-match">Live</td>
-                          </tr>
-
-                          <tr style="text-align: center; font-size: 15px;">
-                            <td></td>
-                            <td>More...</td>
-                            <td></td>
-                          </tr>
-
-
-                        </tbody>
-                      </table>
-                  </div>
-
-                  <div class="game-box" id="upcoming-matches">
-                    <table style="text-align: center;">
-                        <thead class="table-head">
-                          <td width="50">Game</td>
-                          <td width="160">Team</td>
-                          <td width="70">Status</td>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Faxe vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
-                            <td width="70" class="upcoming-match">30min</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
-                            <td width="70" class="upcoming-match">45 min</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://orig00.deviantart.net/c5ee/f/2014/147/8/e/dota_2_icon_by_captain_connor-d7k12s2.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">45 min</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">1h7min</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">1h17min</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">1h17min</td>
-                          </tr>
-
-                          <tr style="text-align: center; font-size: 15px;">
-                            <td></td>
-                            <td>More...</td>
-                            <td></td>
-                          </tr>
-
-
-                        </tbody>
-                      </table>
-                  </div>
-
-                  <div class="game-box" id="finished-matches">
-                    <table style="text-align: center;">
-                        <thead class="table-head">
-                          <td width="50">Game</td>
-                          <td width="160">Team</td>
-                          <td width="70">Status</td>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="https://assets.razerzone.com/eeimages/esports_team/11431/team-liquid-1.png" class="icon">Faxe vs <img src="https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/4/46/OG_original_icon.png/202px-OG_original_icon.png?version=9853a7ad2671a446e01d8819f451da82" class="icon">OG</td>
-                            <td width="70" class="upcoming-match">2-0</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" class="icon"></td>
-                            <td><img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/pulse/eleague/faze.png" class="icon"> Faze vs<img src="https://www.fnatic.com/build/images/logos/fnatic.png" class="icon">Fnatic</td>
-                            <td width="70" class="upcoming-match">0-1</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://orig00.deviantart.net/c5ee/f/2014/147/8/e/dota_2_icon_by_captain_connor-d7k12s2.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">1-0</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">2-0</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">2-1</td>
-                          </tr>
-
-                          <tr>
-                            <td><img src="https://img00.deviantart.net/7a45/i/2016/331/b/8/overwatch_logo_2_by_contreras19-da4os04.png" class="icon"></td>
-                            <td>A vs B</td>
-                            <td width="70" class="upcoming-match">1-2</td>
-                          </tr>
-
-                          <tr style="text-align: center; font-size: 15px;">
-                            <td></td>
-                            <td>More...</td>
-                            <td></td>
-                          </tr>
-
-
-                        </tbody>
-                      </table>
-                  </div>
-
-            </div>
-          </div>
-          </div>
-      </div><!--This is the match and stream box END-->
-
-
-
-      <div class="tournaments-box"><!--TOURNAMENTS BOX START-->
-          <div class="box-info">
-            <a>Ongoing Esport Tournaments</a>
-          </div>
-
-            <div id="tournaments1" class="image-container"><!--Image Box Tournament-->
-              <div class="big-info">
-                  <div class="leauge-info">
-                    <img class="icon-image" src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="15" width="20" >
-                       <a class="font1"> Overwatch Leauge</a>
-                  </div>
+                        </div><!--TOURNAMENTS BOX END-->
               </div>
             </div>
 
-            <div id="tournaments2" class="image-container" ><!--Image Box Tournament-->
-              <div class="big-info">
-                  <div class="leauge-info">
-                <img class="icon-image" src="http://2.bp.blogspot.com/-HqSOKIIV59A/U8WP4WFW28I/AAAAAAAAT5U/qTSiV9UgvUY/s1600/icon.png" height="15" width="20" >
-                   <a class="font1"> Leauge of Legends LCS</a>
-                  </div>
+            <div class="row" >
+              <div class="col-sm-3.5" style="margin-top: 20px;"><!--small news-->
+                        <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+              </div>
+              <div class="col-sm-3.5" style="margin-top: 20px; margin-left: 18px;"><!--small news-->
+                          <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+              </div>
+              <div class="col-sm-3.5" style="margin-top: 20px; margin-left: 23px;"><!--small news-->
+                          <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
               </div>
             </div>
 
-            <div id="tournaments3" class="image-container" ><!--Image Box Tournament-->
-              <div class="big-info">
-                  <div class="leauge-info">
-                <img class="icon-image" src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="15" width="20" >
-                   <a class="font1"> HS Europe summer preelimination</a>
-                  </div>
+
+
+            <div class="row" >
+              <div class="col-sm-3.5" style="margin-top: 20px;"><!--small news-->
+                        <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+              </div>
+              <div class="col-sm-3.5" style="margin-top: 20px; margin-left: 18px;"><!--small news-->
+                          <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
+              </div>
+              <div class="col-sm-3.5" style="margin-top: 20px; margin-left: 23px;"><!--small news-->
+                          <div class="news-box1">
+                                <div class="picture-box">
+                                  <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
+                                </div>
+                                <div class="tags">
+                                  <a>Dota</a>
+                                </div>
+                                <div class="tags">
+                                  <a>News</a>
+                                </div>
+                                <div class="news-text1">
+                                  <h5>This is the heading</h5>
+                                  News about stuff that are important
+                                </div>
+                              </div>
               </div>
             </div>
 
-            <div id="tournaments4" class="image-container" ><!--Image Box Tournament-->
-              <div class="big-info">
-                  <div class="leauge-info">
-                <img class="icon-image" src="https://i.pinimg.com/originals/c1/ec/da/c1ecda477bc92b6ecfc533b64d4a0337.png" height="15" width="20" >
-                   <a class="font1"> HS Europe summer preelimination</a>
-                  </div>
-              </div>
-            </div>
-
-      </div><!--TOURNAMENTS BOX END-->
-
-      <div class="daily-box"> <!--daily START-->
-        <div class="daily-news">
-          <table>
-            <thead style="background-color: #a4a4a4; ">
-              <th width="30"></th>
-              <th width="210" style="font-size: 20px; color: #fa5858">Daily News</th>
-              <th width="30"></th>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td></td>
-                <td class="date1">Septembet 9, 2017</td>
-                <td></td>
-              </tr>
-
-              <tr>
-                <td class="icon-daily"><img src="http://i.imgur.com/xNLs83T.png" height="25" width="25"></td>
-                <td class="news-text"> Season 7 End date</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-              <tr>
-                <td class="icon-daily"><img src="https://steamuserimages-a.akamaihd.net/ugc/792933198599084787/49574C5936D7022D597227832C87F6B0C8863AEB/" height="25" width="25"></td>
-                <td class="news-text"> Pro player abuse wall glitch in competitive</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-              <tr>
-                <td></td>
-                <td class="date1">Septembet 7, 2017</td>
-                <td></td>
-              </tr>
-
-              <tr>
-                <td class="icon-daily"><img src="https://orig00.deviantart.net/97fe/f/2013/332/c/4/dota_2_icon_by_benashvili-d6w0695.png" height="25" width="25"></td>
-                <td class="news-text"> GESC E-Series: Bangkok will takes play after October</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-              <tr>
-                <td class="icon-daily"><img src="http://i.imgur.com/xNLs83T.png" height="25" width="25"></td>
-                <td class="news-text"> SSG overthrown SKT and win Worlds championship</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
+         </div>
+       </div>
+  </div> <!--GRID END-->
 
 
-              <tr>
-                <td class="icon-daily"><img src="https://orig00.deviantart.net/97fe/f/2013/332/c/4/dota_2_icon_by_benashvili-d6w0695.png" height="25" width="25"></td>
-                <td class="news-text"> New Updates 2.0 cause some controversy</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td></td>
-                <td class="date1">Septembet 5, 2017</td>
-                <td></td>
-              </tr>
-
-               <tr>
-                <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
-                <td class="news-text"> Pavel takes the win in the World series</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
-                <td class="news-text"> Pro player banned for toxic </td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td></td>
-                <td class="date1">Septembet 4, 2017</td>
-                <td></td>
-              </tr>
-
-               <tr>
-                <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
-                <td class="news-text"> Pavel takes the win in the World series</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
-                <td class="news-text"> Pro player banned for toxic </td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-              <tr>
-                <td></td>
-                <td class="date1">Septembet 2, 2017</td>
-                <td></td>
-              </tr>
-
-               <tr>
-                <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
-                <td class="news-text"> Pavel takes the win in the World series</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
-                <td class="news-text"> Pro player banned for toxic </td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
+    
 
 
 
-              <tr>
-                <td></td>
-                <td class="date1">August 31, 2017</td>
-                <td></td>
-              </tr>
-
-               <tr>
-                <td class="icon-daily"><img src="https://images-na.ssl-images-amazon.com/images/I/91r2tyoZvWL.png" height="25" width="25"></td>
-                <td class="news-text"> Pavel takes the win in the World series</td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr>
-                <td class="icon-daily"><img src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png" height="25" width="25"></td>
-                <td class="news-text"> Pro player banned for toxic </td>
-                <td class="comment-number"><img src="http://s3.amazonaws.com/Snowcovered_C_Images/36843_comments-icon.png" class="comment-icon">3</td>
-              </tr>
-
-
-              <tr style="text-align: center;">
-                <td></td>
-                <td>More...</td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>  <!--daily END-->
-
-
-      <div class="news-box"> <!-- SMALL NEWS START-->
-
-                <div class="news-box1">
-                  <div class="picture-box">
-                    <img src="https://res.cloudinary.com/lmn/image/upload/fl_lossy,q_80/f_auto,w_640,h_360,c_limit/v1/gameskinnyop/c/d/8/cd8538e6ed7751469325639070a359b0.jpg" width="270" height="180">
-                  </div>
-                  <div class="tags">
-                    <a>Dota</a>
-                  </div>
-                  <div class="tags">
-                    <a>News</a>
-                  </div>
-                  <div class="news-text1">
-                    <h5>This is the heading</h5>
-                    News about stuff that are important
-                  </div>
-                </div>
+        
 
 
 
-      </div> <!--SMALL NEWS END-->
+
+
+      
+
+
+      
 
 
 
-    <footer id="myFooter">
+    <footer id="myFooter" style="margin-top: 1430px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">

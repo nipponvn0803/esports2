@@ -1,20 +1,20 @@
 .daily-box
 {
 	width: 280px;
-	height: 980px;
+	height: 1380px;
 	background-color: #606060;
 	border-radius: 4px;
 	padding: 8px 10px 8px 10px;
-	position: relative;
+	/*position: relative;
 	top: -750px;
-	left: 35px;
+	left: 35px;*/
 
 }
 
 .daily-news
 {
 	width: 260px;
-	height: 948px;
+	height: 1356px;/*FIX this 948*/
 	border: 1px solid black;
 	border-radius: 6px;
 	background-color: #e6e6e6;
