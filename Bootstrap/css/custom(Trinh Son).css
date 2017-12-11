@@ -54,3 +54,14 @@ html, body{
 	width: 20rem;
 	height: 20rem;
 }
+
+.logo{
+  margin-top: -170px;
+  margin-left: 130px;
+  z-index: 100;
+}
+
+#logo-page{
+  width: 150px;
+  height: 150px;
+}

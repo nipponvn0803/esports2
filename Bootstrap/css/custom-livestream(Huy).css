@@ -1,7 +1,6 @@
       .matchbox-position
       {
-        float: left;
-        width: 30%;
+
       }
       .matchbox
       {
@@ -13,9 +12,9 @@
         position: relative;
         left: 1000px;
         top:-420px;
-        
+
       }
-      
+
       .nav-bar-match
       {
         margin:auto;
@@ -23,7 +22,7 @@
         width: 300px;
         padding: 0px 20px 0px 20px;
         height: 46px;
-        
+
       }
 
       .nav-bar-match ul {
@@ -95,7 +94,7 @@
 
       .center-button
       {
-        
+
         margin-bottom: 10px;
         margin-left: 15px;
 
@@ -103,7 +102,6 @@
 
       .game-box
       {
-        border: 1px solid black;
         margin-right: 30px;
         height: 281px;
         width: 260px;
@@ -116,7 +114,7 @@
         float: left;
         height: 284px;
         width: 40px;
-        
+
         border-right: 1px solid black;
 
 
@@ -139,7 +137,7 @@
         border-right: 1px solid black;
       }
 
-      
+
       #upcoming1
       {
         margin-left: 5px;
