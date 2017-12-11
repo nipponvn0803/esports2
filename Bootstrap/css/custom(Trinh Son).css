@@ -59,6 +59,7 @@ html, body{
   margin-top: -170px;
   margin-left: 130px;
   z-index: 100;
+  width: 200px;
 }
 
 #logo-page-main{
