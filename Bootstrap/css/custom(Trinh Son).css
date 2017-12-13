@@ -36,6 +36,7 @@ html, body{
   left: 75vw;
   top: -5rem;
   width: 13rem;
+  height: 40px;
 }
 
 .login{
@@ -47,7 +48,7 @@ html, body{
 .signup{
   font-size: 1.2rem;
   width: 6rem;
-    position: relative;
+  position: relative;
 }
 
 .shit {
