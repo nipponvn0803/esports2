@@ -1,0 +1,54 @@
+.news-section
+{
+	width: 750px;
+	height: 1340px;
+	background-color: white;
+	padding: 25px 35px 15px 35px;
+	color: black;
+}
+
+.related
+{
+	width: 750px;
+	height: 320px;
+	background-color: white;
+	color: black;
+	padding: 15px 15px 10px 15px;
+
+}
+
+.comment-box
+{
+	width: 680px;
+	height: 350px;
+	background-color: #e6e6e6;
+	padding: 10px 15px 10px 15px;
+}
+
+.comment-text
+{
+	width: 655px;
+	height: 220px;
+	margin-bottom: 15px;
+}
+
+.advertisement
+{
+	width: 270px;
+	height: 400px;
+	background-color: white;
+	color: black;
+}
+
+.recommended-news
+{
+	width: 180px;
+	height: 220px;
+	background-color: #e6e6e6;
+}
+
+.news-img
+{
+	width: 180px;
+	height: 140px;
+}

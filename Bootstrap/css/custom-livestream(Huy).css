@@ -122,21 +122,17 @@
 
       .stream-box
       {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         margin-right: 30px;
-        height: 330px;
-        width: 240px;
+
+        height: 307px;
+        width: 260px;
         background-color: #a4a4a4;
+        overflow: hidden;
+        font-size: 14px;
       }
 
-      .stream-icon-box
-      {
-        float: left;
-        height: 328px;
-        width: 40px;
-        border-right: 1px solid black;
-      }
-
+      
 
       #upcoming1
       {
@@ -168,6 +164,12 @@
       {
         width: 20px;
         height: 20px;
+      }
+
+      .view-icon
+      {
+        width: 15px;
+        height: 15px;
       }
       .live-match
       {
