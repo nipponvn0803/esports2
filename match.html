@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="Bootstrap/css/footer.css">
 	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">
 	<link rel="stylesheet" href="Bootstrap/css/betting.css">
-	        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>        
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
   </head>
@@ -20,7 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <script>
-            $(document).ready(function() {                
+            $(document).ready(function() {
                 var t = TweenLite.to($("ul.menu"), 0.25, {opacity: 1, top: "0px", "z-index": 1});
                 t.reversed(true);
 
@@ -92,9 +92,9 @@
       <button type="button" class="btn btn-outline-danger signup">Sign up</button>
     </div>
 	</div>
-	<div class="firstmatch" id="tocenter">	
+	<div class="firstmatch" id="tocenter">
 	 <img src="logo.jpg" class="alogo">
-		<img src="logo.jpg" class="blogo"> 
+		<img src="logo.jpg" class="blogo">
 		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
 		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
 		<div class="variables" id="firstline">
@@ -104,7 +104,7 @@
                        <a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="second">Handicap</a>
     				<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="third">Handicap</a>
     			</div>
-    		</div>	
+    		</div>
 		</div>
 		<div class="variables">
 			<div class="input-group">
@@ -113,7 +113,7 @@
 					<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="second2">First 10 kills (2 map)</a>
 					<a class="btn btn-primary btn1-sm notActive" data-toggle="data" data-title="third3">First 10 kills (3 map)</a>
 				</div>
-			</div>	
+			</div>
 		</div>
 		<span class="teamchoice"> Team choice </span></br>
 		<div class="variables1">
@@ -122,8 +122,8 @@
 					<a class="btn btn-primary btn1-sm active" data-toggle="data1" data-title="first1">Team A</a>
 					<a class="btn btn-primary btn1-sm notActive" data-toggle="data1" data-title="second2">Team B</a>
 				</div>
-			</div>	
-		</div>			
+			</div>
+		</div>
 		<table class="text">
 			<tr>
 				<td class="leftcol">Team A</td>
@@ -154,7 +154,7 @@
     var sel = $(this).data('title');
     var tog = $(this).data('toggle');
     $('#'+tog).prop('value', sel);
-    
+
     $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
     $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
 })</script>

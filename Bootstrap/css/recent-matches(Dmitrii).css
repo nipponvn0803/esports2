@@ -1,0 +1,42 @@
+
+      .game-icon-box
+      {
+        float: left;
+        height: 284px;
+        width: 40px;
+        border-right: 1px solid black;
+      }
+
+
+      thead tr
+      {
+        background-color: #303030;
+      }
+
+      tr
+      {
+        
+      }
+
+      tr:nth-child(even)
+      {
+
+      }
+      td
+      {
+        padding-top: 5px;
+        padding-bottom: 7px;
+        padding-left: 4px;
+      }
+
+      .icon
+      {
+        width: 20px;
+        height: 20px;
+      }
+
+      .view-icon
+      {
+        width: 15px;
+        height: 15px;
+      }

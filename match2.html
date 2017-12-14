@@ -2,39 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Index</title>
+    <title>E-Shield</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Bootstrap/css/custom(Trinh Son).css">
   	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   	<link rel="stylesheet" href="Bootstrap/css/footer.css">
   	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">
-  	<link rel="stylesheet" href="Bootstrap/css/betting.css">
+  	<link rel="stylesheet" href="Bootstrap/css/betting2.css">
+
 
   </head>
   <body>
-<div class="wrapper">
+    <div class="wrapper">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <script>
-            $(document).ready(function() {
-                var t = TweenLite.to($("ul.menu"), 0.25, {opacity: 1, top: "0px", "z-index": 1});
-                t.reversed(true);
 
-                $("button#menu").click(function() {
-                    if(t.reversed())
-                    {
-                        t.play();
-                    }
-                    else
-                    {
-                        t.reverse();
-                    }
-                    //t.reversed() ? t.play() : t.reverse();
-                });
-            });
-        </script>
 
       <div class="collapse navbar-collapse navbar-collapse-custom-1" id="navbarColor03">
         <ul class="navbar-nav mr-auto">
@@ -63,7 +47,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
       <div class="collapse navbar-collapse navbar-collapse-custom-2">
         <ul class="navbar-nav mr-auto navbar-nav-custom-2">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">News <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
@@ -86,73 +70,83 @@
     </nav>
 
     <div class="button-bar-custom-1">
-      <a href="login.html"><button type="button" class="btn btn-outline-success login">Login</button></a>
-      <a href="login.html"><button type="button" class="btn btn-outline-danger signup">Sign up</button></a>
+      <p>Welcome, test user</p>
+      <p>Balance: €40</p>
+      <img id="user-profile" src="Images/profile.jpg" alt="">
     </div>
-	</div>
-	<div class="bettinwrap">
-	<div class="gamechose">
-		<img src="logo.jpg" alt="gamelogo" class="gamelogo">
-		<div class="menuSystem">
-		<h4>Game betting</h4>
-            <button id="menu">Games</button>
-            <div class="menuContent">
-                <ul class="menu">
-                    <li>League of Legends</li>
-                    <li>DotA 2</li>
-                    <li>CS:GO</li>
-                    <li>Overwatch</li>
-					<li>Hearthstone</li>
-                </ul>
-				</div>
-            </div>
-        </div>
-		</div>
-	<div class="firstmatch">
-	 <img src="logo.jpg" class="alogo">
-		<img src="logo.jpg" class="blogo">
-		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
-		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
-			<span class="timer">in 10 min</span>
-		<a class="betteam" id="teamabutton" href="match.html">Go to match</a>
-		<table class="text">
-			<tr>
-				<td class="leftcol">Team A</td>
-				<td class="rightcol">Team B</td>
-			</tr>
-		</table>
-	</div>
-		<div class="firstmatch">
-	 <img src="logo.jpg" class="alogo">
-		<img src="logo.jpg" class="blogo">
-		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
-		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
-			<span class="timer">in 37 min</span>
-		<a class="betteam" id="teamabutton" href="match.html">Go to match</a>
-		<table class="text">
-			<tr>
-				<td class="leftcol">Team A</td>
-				<td class="rightcol">Team B</td>
-			</tr>
-		</table>
-	</div>
 
-		<div class="firstmatch">
-	 <img src="logo.jpg" class="alogo">
-		<img src="logo.jpg" class="blogo">
-		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
-		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
-			<span class="timer">in 3h 15 min</span>
-		<a class="betteam" id="teamabutton" onclick="Alert()">Go to match</a>
-		<table class="text">
-			<tr>
-				<td class="leftcol">Team A</td>
-				<td class="rightcol">Team B</td>
-			</tr>
-		</table>
-	</div>
+	  </div>
+
+    <div class="logo-main">
+          <img id="logo-page-main" src="Images/logo.png" alt="">
+    </div>
+
+    <div class="first-container-match">
+      <figure id="teamA-logo" >
+        <img class="team-logo" src="logo.jpg" alt="">
+        <figcaption>Team A</figcaption>
+      </figure>
+
+      <figure id="teamB-logo" >
+        <img class="team-logo" src="logo.jpg" alt="">
+        <figcaption>Team B</figcaption>
+      </figure>
+
+      <table class="table table-hover table-match-1">
+        <thead>
+          <tr>
+            <th scope="col">50%</th>
+            <th scope="col">10hr 20mins left</th>
+            <th scope="col">50%</th>
+          </tr>
+          <tr>
+            <th scope="col">1:0.61</th>
+            <th scope="col">Best of 3</th>
+            <th scope="col">1:1.39</th>
+          </tr>
+        </thead>
+      </table>
+
+    </div>
+
+    <div class="second-container-match">
+      <h1>Choose the condition</h1>
+
+        <button id="button-top-1" type="button" class="btn-group-top btn btn-secondary" onclick="buttonTop1()">Match winner</button>
+        <button id="button-top-2" type="button" class="btn-group-top btn btn-secondary" onclick="buttonTop2()">Handicap (Team A -1,5)</button>
+        <button id="button-top-3" type="button" class="btn-group-top btn btn-secondary" onclick="buttonTop3()">Handicap (Team B -1,5)</button>
+
+        <button id="button-top-4" type="button" class="btn-group-bot btn btn-secondary" onclick="buttonTop4()">First 10 kills (map 1)</button>
+        <button id="button-top-5" type="button" class="btn-group-bot btn btn-secondary" onclick="buttonTop5()">First 10 kills (map 2)</button>
+        <button id="button-top-6" type="button" class="btn-group-bot btn btn-secondary" onclick="buttonTop6()">First 10 kills (map 3)</button>
 
 
+      <h1>Choose the team</h1>
+
+      <div class="choose-team">
+        <button id="button-team-1" type="button" class="btn-team btn btn-primary btn-lg" onclick="chooseTeam1()">Team A</button>
+        <button id="button-team-2" type="button" class="btn-team btn btn-primary btn-lg" onclick="chooseTeam2()">Team B</button>
+      </div>
+
+      <form id="amount" action="">
+        <h2>Choose your betting amount (euro):</h2>
+        <input type="number" name="quantity">
+      </form>
+
+      <button id="confirm" type="button" class="btn btn-success" onclick="myFunction()">Confirm</button>
+      <br>
+      <button id="cancel" type="button" class="btn btn-danger" onclick="cancel()">Cancel bet</button>
+    </div>
+
+    <div class="popup">
+      <span class="popuptext" id="myPopup">Your bet has been registered. Thank you for using our service.</span>
+    </div>
+
+    <div id="twitch-embed">
+      <h1>Livestream:</h1>
+    </div>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
 	<footer id="myFooter">
         <div class="container">
@@ -200,8 +194,10 @@
             <p>© 2016 Copyright Text </p>
         </div>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="Bootstrap/js/match2.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <script src="Bootstrap/js/match2.js" charset="utf-8"></script>
   </body>
 </html>
