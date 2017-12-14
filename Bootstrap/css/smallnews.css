@@ -7,7 +7,7 @@
 
 .news-box1
 {
-		width: 280px;
+		width: 340px;
 		height: 440px;
 		background-color: #bdbdbd;
 		overflow: hidden;
@@ -17,7 +17,7 @@
 
 .picture-box
 {
-	width: 270px;
+	width: 330px;
 	height: 180px;
 	overflow: hidden;
 	border-radius: 5px;
@@ -37,6 +37,17 @@
 	margin-top: 5px;
 	padding: 1px 2px 1px 2px;
 }
+
+.small-news-position1{
+	margin-top: 35px;
+	margin-left: 55px;
+}
+
+.small-news-position2{
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
 
 .news-text1
 {
