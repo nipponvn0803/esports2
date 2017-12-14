@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">
 	<link rel="stylesheet" href="Bootstrap/css/betting.css">
 	        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="Bootstrap/js/match2.js"></script>
 
   </head>
   <body>
@@ -61,7 +61,11 @@
         </ul>
       </div>
     </nav>
+  <div class="logo-main">
 
+
+    <a href="index.html"><img id="logo-page-main" src="Images/logo.png" alt=""></a> 
+  </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
       <div class="collapse navbar-collapse navbar-collapse-custom-2">
         <ul class="navbar-nav mr-auto navbar-nav-custom-2">
@@ -84,22 +88,19 @@
             <a class="nav-link" href="#">Social Media</a>
           </li>
         </ul>
-      </div>
-    </nav>
-
-    <div class="button-bar-custom-1">
-      <button type="button" class="btn btn-outline-success login">Login</button>
-      <button type="button" class="btn btn-outline-danger signup">Sign up</button>
-    </div>
-	</div>
-
-
-<div class="logo-main">
+		<div class="logo-main">
 
 
     <a href="index.html"><img id="logo-page-main" src="Images/logo.png" alt=""></a> 
   </div>
-  
+      </div>
+    </nav>
+    <div class="button-bar-custom-1">
+      <p>Welcome, test user</p>
+      <p>Balance: €40</p>
+      <img id="user-profile" src="Images/profile.jpg" alt="">
+    </div>
+	</div>
 	<div class="firstmatch" id="tocenter">
 	 <img src="logo.jpg" class="alogo">
 		<img src="logo.jpg" class="blogo">
@@ -139,8 +140,17 @@
 			</tr>
 		</table>
 	</div>
-		<div class="firstmatch">
-		<a class="betteam" id="placebet" href="#">Place a bet</a>
+	      <form id="amount" action="">
+        <h2>Choose your betting amount (euro):</h2>
+        <input type="number" name="quantity">
+      </form>
+	      <div class="popup">
+      <span class="popuptext" id="myPopup">Your bet has been registered. Thank you for using our service.</span>
+    </div>
+		<div class="firstmatch" id="betongame">
+	      <button id="confirm" type="button" class="btn btn-success" onclick="myFunction()">Confirm</button>
+      <br>
+      <button id="cancel" type="button" class="btn btn-danger" onclick="cancel()">Cancel bet</button>
 	</div>
 	<h1 class="livestream">Livestream</h1>
     <div id="twitch-embed"></div>
