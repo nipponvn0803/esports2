@@ -18,8 +18,8 @@ hr {
 
 .big-container{
   margin:auto;
-  width: 65%;
-  border: 1px solid #303030;
+  width: 60%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
   padding: 20px;
 
 }
