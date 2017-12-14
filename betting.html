@@ -5,12 +5,10 @@
     <title>Index</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Bootstrap/css/custom(Trinh Son).css">
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="Bootstrap/css/footer.css">
-	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">	
-	<link rel="stylesheet" href="Bootstrap/css/betting.css">
-	        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>        
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="Bootstrap/css/footer.css">
+  	<link rel="stylesheet" href="Bootstrap/css/dropdown.css">
+  	<link rel="stylesheet" href="Bootstrap/css/betting.css">
 
   </head>
   <body>
@@ -20,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <script>
-            $(document).ready(function() {                
+            $(document).ready(function() {
                 var t = TweenLite.to($("ul.menu"), 0.25, {opacity: 1, top: "0px", "z-index": 1});
                 t.reversed(true);
 
@@ -110,9 +108,9 @@
             </div>
         </div>
 		</div>
-	<div class="firstmatch">	
+	<div class="firstmatch">
 	 <img src="logo.jpg" class="alogo">
-		<img src="logo.jpg" class="blogo"> 
+		<img src="logo.jpg" class="blogo">
 		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
 		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
 			<span class="timer">in 10 min</span>
@@ -125,8 +123,8 @@
 		</table>
 	</div>
 		<div class="firstmatch">
-	 <img src="logo.jpg" class="alogo"> 
-		<img src="logo.jpg" class="blogo"> 
+	 <img src="logo.jpg" class="alogo">
+		<img src="logo.jpg" class="blogo">
 		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
 		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
 			<span class="timer">in 37 min</span>
@@ -138,14 +136,14 @@
 			</tr>
 		</table>
 	</div>
-	
+
 		<div class="firstmatch">
-	 <img src="logo.jpg" class="alogo"> 
-		<img src="logo.jpg" class="blogo"> 
+	 <img src="logo.jpg" class="alogo">
+		<img src="logo.jpg" class="blogo">
 		<div class="percenta">50 %</br><p class="value">1:0.61</p></div>
 		<div class="percentb">50 %</br><p class="value">1:1.39</p></div>
 			<span class="timer">in 3h 15 min</span>
-		<a class="betteam" id="teamabutton" href="match.html">Go to match</a>
+		<a class="betteam" id="teamabutton" onclick="Alert()">Go to match</a>
 		<table class="text">
 			<tr>
 				<td class="leftcol">Team A</td>
@@ -153,7 +151,7 @@
 			</tr>
 		</table>
 	</div>
-	
+
 
 
 	<footer id="myFooter">
@@ -202,5 +200,8 @@
             <p>© 2016 Copyright Text </p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Bootstrap/js/match2.js" charset="utf-8"></script>
   </body>
 </html>
