@@ -1,42 +1,147 @@
-
-.player-stats thead tr {
-  background-color: inherit!important;
+.upper-row {
+  padding: 10px;
+  padding-top: 40px;
+  float: left;
+  width: 100%;
 }
 
+.team-perfomance {
+  display: block;
+  float: left;
+  width: 658px;
+  height: 329px;
+  margin-bottom: 100px;
+}
+
+.team-perfomance-2 {
+  float: right;
+  display: block;
+  width: 626px;
+  height: 311px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+
+.statistics-table table tr {
+  border-bottom: none!important;
+}
 
 .icon-profile {
   display: inline-block;
   margin-top: 5px;
 }
 
+
+.player-stats thead tr {
+  background-color: #222;
+}
+
+
 hr {
   border: none;
   color: #303030;
   background-color: #303030;
   height: 2px;
-  width: 100%
+
 }
+
+.big-container{
+  margin:auto;
+  width: 90%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  padding: 20px;
+  height: 2000px;
+
+}
+
+.small-container{
+  float: left;
+  background: #303030;
+  padding: 25px;
+  width: 65%;
+  overflow: hidden;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.align {
+  width:100%;
+}
+
+
+
+.team-info {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  background-color:#222;
+  padding: 7px;
+
+}
+
+.recent-matches {
+  float: right;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  display: inline-block;
+  margin: 13px;
+  width:310px;
+}
+
+.text-box {
+margin-top: 15px;
+float: left;
+}
+
+.profile {
+  float: left;
+  width: 58%;
+}
+
+.row-text-right {
+  display: block;
+  margin: center;
+  position: relative;
+  line-height: 1.7rem;
+}
+
+.row-text-right li {
+  display: block;
+  width: 132px;
+}
+
+.follow-button {
+  margin-top: 20px;
+  margin-left: 160px;
+}
+
+.team-quick-stats {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .profile img {
   border-radius: 50%;
   float:left;
 }
 
-.big-container{
-  margin:auto;
-  width: 75%;
-  box-shadow: 0 0 8px rgba(0,0,0,0.5);
-  padding: 20px;
 
-}
 
-.small-container{
-  margin: auto;
-  background: #303030;
-  padding: 25px;
-  overflow: hidden;
-  box-shadow: 0 0 2px rgba(0,0,0,0.5);
-}
+
 
 .player-name{
   float:left;
@@ -44,12 +149,7 @@ hr {
   padding-top: 7px;
 }
 
-.row-text-right {
-  display: inline-block;
-  position: relative;
-  line-height: 1.7rem;
-  float:right;
-}
+
 
 .row-text-right ul{
   list-style-type: none;
@@ -70,12 +170,8 @@ hr {
   text-decoration: none;
 }
 
-.follow-button {
-  margin-left: 350px;
-}
-.player-info {
-  padding: 16px;
-}
+
+
 
 .teams ul {
   display: inline-block;
@@ -109,10 +205,11 @@ hr {
   overflow: hidden;
 }
 
-.team-upper-row-link {
+.members-upper-row-link {
   float: right;
   padding: 10px;
   padding-left: 30px;
+  margin-right: 1px;
 }
 
 .team-upper-row-text {
@@ -160,12 +257,7 @@ hr {
   float:left;
 }
 
-.upper-row {
-  padding: 10px;
-  padding-top: 40px;
-  width: 100%;
-  float: left;
-}
+
 
 .statistics-table tr,th {
   width: 100%;
@@ -240,12 +332,7 @@ hr {
   padding-bottom: 40px;
 }
 
-.recent-matches {
-  float: right;
-  box-shadow: 0 0 6px rgba(0,0,0,0.5);
-  display: block;
-  margin: 13px;
-}
+
 
 .matches-container {
   display: block;
